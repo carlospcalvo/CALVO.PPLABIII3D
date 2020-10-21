@@ -1,0 +1,101 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color: steelblue; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: steelblue;
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 5vw;
+    height: 5vw;
+    padding-top: 10px;
+}
+
+.topnavbar{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    word-spacing: 1vw;
+    padding-right: 10px;
+}
+
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: lightgoldenrodyellow;
+    flex-wrap: wrap;
+}
+
+.Transacción{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: salmon;
+}
+
+table, th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+input{
+    display: flex;
+    justify-content: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color: gainsboro;
+}
+
+tr:hover{
+    background-color: lightskyblue;
+}
+
+.btnImage{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    justify-content: left;
+}
